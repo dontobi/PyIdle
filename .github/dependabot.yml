@@ -9,18 +9,9 @@ updates:
       time: "06:00"
       timezone: "Europe/Berlin"
     target-branch: "main"
-  # Maintain dependencies for PyTerminal
-  - package-ecosystem: "pip"
-    directory: "/work/PyTerminal/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "06:00"
-      timezone: "Europe/Berlin"
-    target-branch: "main"
   # Maintain dependencies for PyIdle
   - package-ecosystem: "pip"
-    directory: "/work/PyIdle/"
+    directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
