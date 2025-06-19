@@ -1,0 +1,11 @@
+# PyIdle - Konfigurationsdatei
+# Entwickler: Tobias Schug
+
+
+# Runtime Parameters
+runtime_debug: False                                                    # False: off / True: on
+
+# PyIdle Parameters
+interval: 60                                                            # Interval in seconds
+processes: ["PQA", "Review", "SVOConsole"]                              # Processnames
+threshold: 1800                                                         # Threshold in seconds

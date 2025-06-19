@@ -1,0 +1,29 @@
+version: 2
+updates:
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Berlin"
+    target-branch: "main"
+  # Maintain dependencies for PyTerminal
+  - package-ecosystem: "pip"
+    directory: "/work/PyTerminal/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Berlin"
+    target-branch: "main"
+  # Maintain dependencies for PyIdle
+  - package-ecosystem: "pip"
+    directory: "/work/PyIdle/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Berlin"
+    target-branch: "main"

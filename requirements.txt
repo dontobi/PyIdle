@@ -1,0 +1,4 @@
+psutil==7.0.0
+pywin32==310
+PyYAML==6.0.2
+schedule==1.2.2
