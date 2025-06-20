@@ -30,7 +30,7 @@ VSVersionInfo(
       StringTable(
         '040704b0',
         [StringStruct('CompanyName', 'Rasselstein'),
-        StringStruct('FileDescription', 'PyIdle ist eine in Python programmierte Anwendung, um Windows Anwendungen nach einer einstellbaren Zeit im Idle-Zustand zu schließen.'),
+        StringStruct('FileDescription', 'PyIdle dient dazu Anwendungen nach einer einstellbaren Zeit im Idle-Zustand zu schließen.'),
         StringStruct('FileVersion', '1.0.1'),
         StringStruct('ProductName', 'PyIdle'),
         StringStruct('ProductVersion', '1.0.1'),

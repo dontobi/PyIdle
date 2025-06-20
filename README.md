@@ -1,7 +1,7 @@
 # Idle
 
 ## About
-PyIdle ist eine in Python programmierte Anwendung, um Windows Anwendungen nach einer einstellbaren Zeit im Idle-Zustand zu schließen.
+PyIdle dient dazu Anwendungen nach einer einstellbaren Zeit im Idle-Zustand zu schließen.
 
 ## License
 MIT License
