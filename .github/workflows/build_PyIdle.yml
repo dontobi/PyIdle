@@ -21,6 +21,13 @@ jobs:
         with:
           python-version: '3.13'
           architecture: 'x86'
+      - name: Cache pip dependencies
+        uses: actions/cache@v4.2.3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-3.13-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-3.13-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -30,7 +37,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4.6.2
         with:
-          name: PyIdle-Executables
+          name: PyIdle-Executable
           path: dist/PyIdle_Win10.exe
           retention-days: 2
       - name: Commit and Push

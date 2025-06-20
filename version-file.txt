@@ -6,8 +6,8 @@ VSVersionInfo(
   ffi=FixedFileInfo(
     # filevers and prodvers should be always a tuple with four items: (1, 2, 3, 4)
     # Set not needed items to zero 0.
-    filevers=(1, 0, 0, 0),
-    prodvers=(1, 0, 0, 0),
+    filevers=(1, 0, 1, 0),
+    prodvers=(1, 0, 1, 0),
     # Contains a bitmask that specifies the valid bits 'flags'r
     mask=0x0,
     # Contains a bitmask that specifies the Boolean attributes of the file.
@@ -30,10 +30,10 @@ VSVersionInfo(
       StringTable(
         '040704b0',
         [StringStruct('CompanyName', 'Rasselstein'),
-        StringStruct('FileDescription', 'PyIdle'),
-        StringStruct('FileVersion', '1.0.0'),
+        StringStruct('FileDescription', 'PyIdle ist eine in Python programmierte Anwendung, um Windows Anwendungen nach einer einstellbaren Zeit im Idle-Zustand zu schließen.'),
+        StringStruct('FileVersion', '1.0.1'),
         StringStruct('ProductName', 'PyIdle'),
-        StringStruct('ProductVersion', '1.0.0'),
+        StringStruct('ProductVersion', '1.0.1'),
         StringStruct('LegalCopyright', 'Tobias Schug'),
         StringStruct('License', 'GPL Version 2')])
       ]), 

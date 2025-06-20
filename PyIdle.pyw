@@ -10,8 +10,8 @@ from typing import Dict, Set
 
 
 # Globale Variablen
-PYIDLE_VERSION = "v1.0.0"
-PYIDLE_BUILD = "20250618"
+PYIDLE_VERSION = "v1.0.1"
+PYIDLE_BUILD = "20250620"
 MAX_LOG_SIZE = 1 * 1024 * 1024
 
 
