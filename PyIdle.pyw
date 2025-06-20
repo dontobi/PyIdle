@@ -180,7 +180,7 @@ if __name__ == '__main__':
     config = load_config('PyIdle.yaml')
     # Initialisiert den Logger
     logger = init_logger(__name__, 'PyIdle.log', config)
-    logger.info(f"Starte PyIdle {PYIDLE_VERSION} (Build: {PYIDLE_BUILD}) - - Leerlauf-Schwellenwert in Sekunden: {config.get('threshold', 1800)}{' - Debug-Modus: aktiv' if config.get('runtime_debug') else ''}")
+    logger.info(f"Starte PyIdle {PYIDLE_VERSION} (Build: {PYIDLE_BUILD}){' - Debug-Modus: aktiv' if config.get('runtime_debug') else ''}")
     # Initialisiere den Scheduler
     scheduler = SafeScheduler(reschedule_on_failure=True)
     # Plane die periodische Ausführung der Prozessüberprüfung
